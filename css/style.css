@@ -15,37 +15,26 @@
 }
 
 
-b {
+.asset {
     position:relative;
     top:5px;
     text-align: center;
 }
 
 
-/* hover */
-.like:hover {
-    color:red;
-    cursor:pointer;
-}
 
-/* item style */
-
-.description {
-    height: 80px;
-    width: 400px;
-    display: inline-block;
-    background-color: white;
-    text-align: left;
-}
 
 /* box */
 
 .image {
-    background-color: lightslategray;
+    background-color: white;
     height:500px;
     width: 400px;
     position: relative;
     background-size: contain;
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #one{
@@ -96,6 +85,13 @@ b {
     background-image: url(../img/6b.webp);
 }
 
+.description {
+    height: 0px;
+    width: 400px;
+    display: inline-block;
+    background-color: white;
+    text-align: left;
+}
 
 .like {
     height: 40px;
@@ -105,6 +101,11 @@ b {
     right:0;
     top:20px;
     font-size: 24px;
+}
+
+.like:hover {
+    color:red;
+    cursor:pointer;
 }
 
 .labels{
@@ -138,4 +139,22 @@ b {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
+}
+
+.brand{
+    font-size: 15px;
+}
+
+.name{
+    text-transform: uppercase;
+}
+
+.price{
+    display: inline-block;
+    color:red;
+    font-size: 15px;
+}
+
+.discount{
+display: inline-block;
 }
