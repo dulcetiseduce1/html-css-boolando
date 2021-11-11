@@ -1,0 +1,54 @@
+/* page style */
+
+li {
+    margin-left: 0%;
+    display: inline-block;
+    padding:0;
+
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding:0;
+}
+
+/* item style */
+
+
+.image {
+    overflow: hidden;
+    background-color: lightslategray;
+    height:500px;
+    width: 400px;
+}
+
+.like {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position:absolute;
+}
+
+.description {
+    height: 100px;
+    width: 400px;
+    display: inline-block;
+    background-color: paleturquoise;
+}
+
+.label-one{
+    height: 20px;
+    width: 50px;
+    background-color: red;
+    color:white;
+    position:absolute;
+}
+
+.label-one{
+    height: 20px;
+    width: 50px;
+    background-color: green;
+    color:white;
+    position:absolute;
+}
