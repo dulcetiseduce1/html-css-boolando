@@ -30,13 +30,15 @@
     position:absolute;
     right:0;
     top:20px;
+    font-size: 30px;  
 }
 
 .description {
-    height: 100px;
+    height: 80px;
     width: 400px;
     display: inline-block;
     background-color: paleturquoise;
+    text-align: left;
 }
 
 .labels{
@@ -50,19 +52,26 @@
 
 .label-one{
     height: 30px;
-    width: 80px;
-    background-color: green;
-    color:white;
-    position:relative;
-    display: inline-block;
-    
-}
-
-.label-two{
-    height: 30px;
-    width: 80px;
+    width: 50px;
     background-color: red;
     color:white;
     position:relative;
     display: inline-block;
+    text-align: center;
+    vertical-align: middle;   
+}
+
+.label-two{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    color:white;
+    position:relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+p {
+    margin-top: 6px;
+    text-align: center;
 }
