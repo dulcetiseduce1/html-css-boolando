@@ -21,9 +21,6 @@
     text-align: center;
 }
 
-
-
-
 /* box */
 
 .image {
@@ -38,6 +35,10 @@
     margin-bottom:10px;
 }
 
+.image:hover
+{
+    cursor: pointer;
+}
 #one{
     background-image: url(../img/1.webp);
 }
@@ -64,6 +65,7 @@
 
 #one:hover{
     background-image: url(../img/1b.webp);
+    cursor: pointer;
 }
 
 #two:hover{
