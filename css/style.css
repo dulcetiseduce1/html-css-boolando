@@ -1,33 +1,35 @@
 /* page style */
-
-li {
-    margin-left: 0%;
-    display: inline-block;
+*{
+    margin:0;
     padding:0;
-
+    box-sizing:border-box;
+}
+.item {
+    display: inline-block;
 }
 
-ul {
+.list {
     text-align: center;
     list-style: none;
-    padding:0;
 }
 
 /* item style */
 
 
 .image {
-    overflow: hidden;
     background-color: lightslategray;
     height:500px;
     width: 400px;
+    position: relative
 }
 
 .like {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-color: white;
     position:absolute;
+    right:0;
+    top:20px;
 }
 
 .description {
@@ -37,18 +39,30 @@ ul {
     background-color: paleturquoise;
 }
 
-.label-one{
-    height: 20px;
-    width: 50px;
-    background-color: red;
+.labels{
+    height: 30px;
+    width: 200px;
     color:white;
     position:absolute;
+    bottom:50px;
+    text-align: left;
 }
 
 .label-one{
-    height: 20px;
-    width: 50px;
+    height: 30px;
+    width: 80px;
     background-color: green;
     color:white;
-    position:absolute;
+    position:relative;
+    display: inline-block;
+    
+}
+
+.label-two{
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    color:white;
+    position:relative;
+    display: inline-block;
 }
