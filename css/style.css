@@ -14,7 +14,8 @@
     list-style: none;
 }
 
-p {
+
+b {
     position:relative;
     top:5px;
     text-align: center;
@@ -29,14 +30,11 @@ p {
 
 /* item style */
 
-
-
-
 .description {
     height: 80px;
     width: 400px;
     display: inline-block;
-    background-color: paleturquoise;
+    background-color: white;
     text-align: left;
 }
 
@@ -134,9 +132,10 @@ p {
     font-size: 10px;
     height: 20px;
     width: 70px;
-    background-color: green;
+    background-color:seagreen;
     color:white;
     position:relative;
     display: inline-block;
+    text-align: center;
     vertical-align: middle;
 }
