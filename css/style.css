@@ -28,7 +28,7 @@
     height:500px;
     width: 400px;
     position: relative;
-    background-size: contain;
+    background-size: cover;
     margin-top: 30px;
     margin-right: 5px;
     margin-left: 5px;
